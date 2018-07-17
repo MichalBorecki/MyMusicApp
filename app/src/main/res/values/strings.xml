@@ -1,3 +1,48 @@
-<resources>
-    <string name="app_name">MyMusicApp</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">My Music App</string>
+    <string name="play_btn">Play song</string>
+    <string name="choose_artist">Choose an artist</string>
+    <string name="choose_album">Choose an album</string>
+    <string name="choose_song">Choose a song</string>
+    <string name="songs">Songs</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="album_cover">Cover of album</string>
+    <string name="artist_photo">Photo of artist</string>
+    <string name="backward_btn">Backward button</string>
+    <string name="forward_btn">Forward button</string>
+    <string name="shuffle_btn">Shuffle button</string>
+    <string name="repeat_btn">Repeat button</string>
+    <string name="random_song">Random song</string>
+    <string name="repeat_song">Repeat songs</string>
+    <string name="song_playing">Playing: <xliff:g example="Mój dom" id="clickedItem">%s</xliff:g></string>
+    <string name="song_paused">Paused: <xliff:g example="Mój dom" id="clickedItem">%s</xliff:g></string>
+    <string name="cannot_shuffle">Cannot shuffle one song</string>
+    <string name="not_repeat_song">Songs will not be played again</string>
+    <string name="songs_alphabetically">Sort songs alphabetically</string>
+    <string name="songs_randomly">Play songs randomly</string>
+    <string name="tool">Tool</string>
+
+    <string name="moj_dom">Mój dom</string>
+    <string name="kortez">Kortez</string>
+    <string name="pierwsza">Pierwsza</string>
+    <string name="dobrze_ze_cie_mam">Dobrze, że Cię mam</string>
+    <string name="we_dwoje">We dwoje</string>
+    <string name="film_przed_snem">Film przed snem</string>
+    <string name="dobry_moment">Dobry moment</string>
+    <string name="nic_tu_po_mnie">Nic tu po mnie</string>
+    <string name="dziwny_sen">Dziwny sen</string>
+    <string name="trudny_wiek">Trudny moment</string>
+    <string name="wyjdz_ze_mna_na_deszcz">Wyjdź ze mną na deszcz</string>
+
+    <string name="czarna_madonna">Czarna Madonna</string>
+    <string name="organek">Organek</string>
+    <string name="introdukcja">Introdukcja</string>
+    <string name="rilke">Rilke</string>
+    <string name="mississipi_w_ogniu">Mississipi w ogniu</string>
+    <string name="get_it_right">Get it right</string>
+    <string name="son_of_a_gun">Son of a gun</string>
+    <string name="wiosna">Wiosna</string>
+    <string name="hkdk">HKDK</string>
+    <string name="ki_czort">Ki Czort</string>
 </resources>

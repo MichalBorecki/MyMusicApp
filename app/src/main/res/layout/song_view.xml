@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/standard_padding"
+    android:weightSum="4"
+    tools:background="@drawable/background_image">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/small_padding"
+        android:paddingTop="@dimen/small_padding">
+
+        <TextView
+            android:id="@+id/song_title_view"
+            style="@style/songStyle"
+            android:textStyle="bold"
+            tools:text="Title of song" />
+
+        <TextView
+            android:id="@+id/artist_name_view"
+            style="@style/songStyle"
+            android:textSize="@dimen/small_text"
+            tools:text="Band or Artist" />
+
+        <TextView
+            android:id="@+id/album_title_view"
+            style="@style/songStyle"
+            android:textSize="@dimen/small_text"
+            tools:text="Title of album" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/album_cover_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/album_cover"
+        tools:src="@drawable/kortez_moj_dom_cover" />
+
+</LinearLayout>

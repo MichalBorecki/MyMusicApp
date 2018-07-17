@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="standard_padding">16dp</dimen>
+    <dimen name="middle_padding">20dp</dimen>
+    <dimen name="bigger_padding">24dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="button_size">48dp</dimen>
+    <dimen name="small_text">14sp</dimen>
+    <dimen name="normal_text">16sp</dimen>
+    <dimen name="larger_text">22sp</dimen>
+</resources>
